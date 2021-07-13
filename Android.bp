@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2017-2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_binary {
+    name: "acdb_get",
+    srcs: ["acdb_get.c"],
+    cflags: ["-Wall", "-Werror"],
+    compile_multilib: "32",
+    vendor: true,
+}
